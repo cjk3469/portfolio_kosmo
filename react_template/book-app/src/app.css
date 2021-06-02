@@ -1,0 +1,43 @@
+button{
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.book{
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  list-style: none;
+}
+
+.book-count{
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin-left: 0.2em;
+  margin-right: 0.5em;
+  background-color: orange;
+  border-radius: 50%;
+  color: white;
+}
+
+.book-button{
+  font-size: 2.5rem;
+  margin: 0 0.1em;
+  background-color: transparent;
+}
+
+.book-button:hover{
+  opacity: 0.8;
+}
+
+.book-increase{
+  color: green;
+}
+
+.book-zero{
+  color: darkred;
+}

@@ -44,6 +44,9 @@ class Books extends Component{
                         <Book 
                         key={book.id} 
                         book={book}
+                        onIncrement={this.eventIncrement}
+                        onDecrement={this.eventDecrement}
+                        onDelete={this.eventDelete}
                         />
                     ))
                 }
